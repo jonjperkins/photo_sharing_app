@@ -4,7 +4,7 @@
 %p= @post.description
 %p= @post.user.name
 %p
-  =@post.get_upvotes.size
+  = @post.get_upvotes.size
   Likes
 %p
   = @post.get_downvotes.size
